@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  width: 700px;
+  height: calc(100vh - 100px);
+}
+
+.square {
+  width: calc(100% / 6);
+  height: calc(100% / 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  font-size: 35px;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.alreadyUsed {
+
+}
